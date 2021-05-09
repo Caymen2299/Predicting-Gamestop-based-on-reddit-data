@@ -26,15 +26,15 @@ Fully connected Neural Network filled with dense layers that tries to show corre
 
 ## Running the dataset maker
 ### Important! This part is optional and should only be run if a user wants to create a new dataset. The dataset used in training is included in the project files. This pulls down posts from reddit and pulls down closing prices from yahoo into separate csv files. The combination of these two datasets was done in excel to create the final dataset otherwise known as the WSB dataset or WSBdataAndClosingInfo.csv 
-Navigate to the folder containing the project and then open the makeDataset.ipynb file. 
-Follow directions on https://towardsdatascience.com/how-to-use-the-reddit-api-in-python-5e05ddfd1e5c on how to set up a bot on reddit (step 1 through 3)
-Enter Client ID into the first cell where it says “client_id_here”
-Enter Client Secret into the first cell where it says “client_secret_here”
-Enter your username and password into the data dictionary named data_dict
-Run the program. 
-Format the dataset in excel to match dates and pricing for posts.
+    Navigate to the folder containing the project and then open the makeDataset.ipynb file. 
+    Follow directions on https://towardsdatascience.com/how-to-use-the-reddit-api-in-python-5e05ddfd1e5c on how to set up a bot on reddit (step 1 through 3)
+    Enter Client ID into the first cell where it says “client_id_here”
+    Enter Client Secret into the first cell where it says “client_secret_here”
+    Enter your username and password into the data dictionary named data_dict
+    Run the program. 
+    Format the dataset in excel to match dates and pricing for posts.
 
 ## Running the neural network
-Navigate to the folder containing the project and then navigate to  predicting_gamestop_nn.ipynb file. 
-Open the file and run the entire program
-Make sure to give the program time as it takes a while to run due to the training.
+    Navigate to the folder containing the project and then navigate to  predicting_gamestop_nn.ipynb file. 
+    Open the file and run the entire program
+    Make sure to give the program time as it takes a while to run due to the training.
