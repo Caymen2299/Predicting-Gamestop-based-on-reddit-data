@@ -1,5 +1,5 @@
 # Predicting-Gamestop-based-on-reddit-data
-Fully connected Neural Network filled with dense layers that tries to show correlation between reddit data and gamestop stock by by trying to predict closing prices
+Neural Network filled with dense layers that tries to show correlation between reddit data and gamestop stock by by trying to predict closing prices
 
 # Instructions on how to install software used in project:
 ### Conda installed?
